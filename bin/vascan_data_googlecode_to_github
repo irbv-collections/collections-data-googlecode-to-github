@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'vascan_data_googlecode_to_github'
+
+VascanDataGooglecodeToGithub::Cli::Application.start(ARGV)
