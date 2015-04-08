@@ -125,7 +125,7 @@ module VascanDataGooglecodeToGithub
       # remove template explanation text 
       issueBody = firstComment[:content].gsub(GC_ISSUE_TEMPLATE_TEXT, "")
       # Always add one line to clearly identify the issue was created on GoogleCode platform
-      ghIssue.body = "Originally posted on GoogleCode (id #{gcIssue[:id]}) on #{originalDate}\n\n" + issueBody
+      ghIssue.body = "[Originally posted on GoogleCode (id #{gcIssue[:id]}) on #{originalDate}]\n\n" + issueBody
       
       comments = Array.new 
 
@@ -194,7 +194,7 @@ module VascanDataGooglecodeToGithub
         if google_code_user.include?(next_comment[:author])
           original_date = Date.parse(next_comment[:date])
           original_date_text = original_date.iso8601 + " " + DateTime.parse(next_comment[:date]).strftime("%H:%M")
-          comment_text = "Originally posted on GoogleCode on #{original_date_text}\n\n" + next_comment[:comment]
+          comment_text = "[Originally posted on GoogleCode on #{original_date_text}]\n\n" + next_comment[:comment]
           
           if dryrun
             puts "DRYRUN: Add comment: #{comment_text} "
