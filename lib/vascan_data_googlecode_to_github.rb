@@ -21,7 +21,7 @@ module VascanDataGooglecodeToGithub
     # label definitions
     GIT_HUB_REPO = "Canadensys/vascan-data"
     INCLUDE_LABELS = ['Vascan']
-    EXCLUDE_LABELS = ['Section-BackEnd']
+    EXCLUDE_LABELS = ['Section-BackEnd','Section-Interface','Section-Support']
 
     #GoogleCode -> GitHub isssue label mapping 
     #" "Duplicate"=>15, 
@@ -47,7 +47,7 @@ module VascanDataGooglecodeToGithub
       puts "Using GitHub user #{user.login}"
       puts "GoogleCode user(s) #{REVERSED_USER_MAPPING[user.login]}"
       readAppState()
-      transferIssues(REVERSED_USER_MAPPING[user.login], googleCodeJSONExportFile, true)
+      transferIssues(user.login, googleCodeJSONExportFile, true)
     end
     
     # Inspect the GoogleCode json document according to the shouldInclude? function.
@@ -70,15 +70,19 @@ module VascanDataGooglecodeToGithub
     end
     
     # author as array including aliases
-    def transferIssues(author, googleCodeJSONExportFile, dryrun)
+    def transferIssues(github_user, googleCodeJSONExportFile, dryrun)
       file = File.read(googleCodeJSONExportFile)
       data_hash = JSON.parse(file, :symbolize_names => true)
       data_hash[:projects][0][:issues][:items].each do |issue|
-        # ensure we are the author of the issue
-        if author && author.include?(issue[:author][:name])
-          if shouldInclude?(issue[:labels])
-            ghIssue = convertToGitHubIssue(issue)
+        if shouldInclude?(issue[:labels])
+          ghIssue = convertToGitHubIssue(issue)
+          # ensure we are the author of the issue
+          if github_user == ghIssue.user
             submitIssueToGitHub(ghIssue, dryrun)
+            handleComments(ghIssue, dryrun)
+          #if we are NOT the author, check if we commented the issue
+          elsif ghIssue.comments.any? {|c| github_user == c[:author]}
+            puts "commented on #{ghIssue.title} #{ghIssue.google_code_id}"
             handleComments(ghIssue, dryrun)
           end
         end
@@ -132,10 +136,10 @@ module VascanDataGooglecodeToGithub
       # this first comment was already handled
       comments_source = gcIssue[:comments][:items].drop(1)
       comments_source.each_with_index do |comment, index|
-        comments.push({author:comment[:author][:name], comment:comment[:content], date:comment[:published], gc_id:comment[:id]})
+        comments.push({author:USER_MAPPING[comment[:author][:name]], comment:comment[:content], date:comment[:published], gc_id:comment[:id]})
       end
-      ghIssue.comments = comments;
-
+      ghIssue.comments = comments
+      ghIssue.state = gcIssue[:state]
       ghIssue
     end
 
@@ -150,11 +154,12 @@ module VascanDataGooglecodeToGithub
       
       @issueStatuses[googleCodeId.to_s.to_sym] ||= IssueStatus.new({google_code_id:googleCodeId, comments:Array.new })
       current_issue_status = @issueStatuses[googleCodeId.to_s.to_sym]
+      current_issue_status.gc_state = git_hub_issue.state
       
       #Ensure the issue was not already sent
       if !current_issue_status.git_hub_id 
         if dryrun
-          puts "DRYRUN: Add issue: #{git_hub_issue} "
+          puts "DRYRUN: Add issue: #{git_hub_issue.inspect} "
         else
           #send the issue to GitHub
           resource = @client.create_issue(GIT_HUB_REPO, git_hub_issue.title, git_hub_issue.body, {labels:git_hub_issue.labels.join(",")})
@@ -171,14 +176,25 @@ module VascanDataGooglecodeToGithub
     # @param dryrun [Boolean]
     def handleComments(git_hub_issue, dryrun)
       googleCodeId = git_hub_issue.google_code_id
+      @issueStatuses[googleCodeId.to_s.to_sym] ||= IssueStatus.new({google_code_id:googleCodeId, comments:Array.new })
       current_issue_status = @issueStatuses[googleCodeId.to_s.to_sym]
       #get the current comment list for this issue
-      gh_issue_comments = @client.issue_comments(GIT_HUB_REPO, current_issue_status.git_hub_id.to_s)
-      
-      gh_issue_comment_count = gh_issue_comments.size
+      gh_issue_comment_count = 0
+      if current_issue_status.git_hub_id
+        gh_issue_comments = @client.issue_comments(GIT_HUB_REPO, current_issue_status.git_hub_id.to_s)
+        gh_issue_comment_count = gh_issue_comments.size
+      end
+
       gc_comment_count = git_hub_issue.comments.count
+      current_issue_status.non_blank_gc_comment_count = git_hub_issue.comments.count { |comment| !comment[:comment].empty? }
+
       google_code_user = REVERSED_USER_MAPPING[@client.user.login]
       same_author = true
+      
+      # If counts on GitHub and in our internal state match, assume it's fine and return
+      if current_issue_status.non_blank_gc_comment_count == gh_issue_comment_count
+        return
+      end
       
       while (gh_issue_comment_count != gc_comment_count) && same_author do
         next_idx = gh_issue_comment_count
