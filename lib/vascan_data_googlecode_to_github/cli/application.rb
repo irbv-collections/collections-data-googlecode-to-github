@@ -2,6 +2,7 @@ require 'thor'
 
 module VascanDataGooglecodeToGithub
   module Cli
+    # Thor application for command line usage
     class Application < Thor
       desc "dryrun", "test and output result as text"
       method_option :token, :type => :string, :required => :true, :desc => "GitHub access TOKEN"
@@ -29,8 +30,6 @@ module VascanDataGooglecodeToGithub
       def inspect_states()
         Migrator.new.inspect_states()
       end
-
-      
     end
   end
 end

@@ -16,6 +16,7 @@ end
 
 module VascanDataGooglecodeToGithub
   
+  # main class to migrate GoogleCode issue to GitHub for the VASCAN project
   class Migrator
     
     # label definitions
@@ -97,15 +98,20 @@ module VascanDataGooglecodeToGithub
       puts "#{labelsHash.length} distinct labels:#{labelsHash.inspect}"
     end
     
-    # Inspect the "states" JSON document
+    # Inspect the states JSON document defined by APP_STATE_FILE
     def inspect_states()
       readAppState()
       @issueStatuses.each do |key, data|
+        # we do not check the state for merged issue
+        next if data.google_code_merged_into
         if data.gc_state && data.gc_state != data.gh_state
-          puts "GoogleCode Issue #{key} should be #{data.gc_state}. GitHub id: #{data.git_hub_id}"
+          puts "GoogleCode/GitHub issue states do not match: GoogleCode:#{key}->#{data.gc_state}, GitHub:#{data.git_hub_id}->#{data.gh_state}"
+        end
+        
+        if !data.git_hub_id || data.git_hub_id == ""
+          puts "GoogleCode issue #{key} does not have a GitHub id"
         end
       end
-      
     end
     
     # @param github_user [String] GitHub user name of the connected user
