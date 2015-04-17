@@ -2741,14 +2741,17 @@
   },
   "876": {
     "google_code_id": 876,
-    "git_hub_id": null,
+    "git_hub_id": 2249,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92788773
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "891": {
     "google_code_id": 891,
@@ -3072,14 +3075,21 @@
   },
   "1218": {
     "google_code_id": 1218,
-    "git_hub_id": null,
+    "git_hub_id": 2251,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92788461
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92788793
+      }
     ],
     "non_blank_gc_comment_count": 2,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "1284": {
     "google_code_id": 1284,
@@ -3581,7 +3591,7 @@
     ],
     "non_blank_gc_comment_count": 7,
     "gc_state": "closed",
-    "gh_state": null
+    "gh_state": "closed"
   },
   "1661": {
     "google_code_id": 1661,
@@ -4721,47 +4731,91 @@
   },
   "2438": {
     "google_code_id": 2438,
-    "git_hub_id": null,
+    "git_hub_id": 2337,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92924409
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92935771
+      },
+      {
+        "gc_id": 3,
+        "gh_id": 92938105
+      }
     ],
     "non_blank_gc_comment_count": 3,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2444": {
     "google_code_id": 2444,
-    "git_hub_id": null,
+    "git_hub_id": 2343,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92924700
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92935501
+      },
+      {
+        "gc_id": 3,
+        "gh_id": 92935813
+      }
     ],
     "non_blank_gc_comment_count": 3,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "open",
+    "gh_state": "open"
   },
   "2447": {
     "google_code_id": 2447,
-    "git_hub_id": null,
+    "git_hub_id": 2346,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92924801
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92935532
+      },
+      {
+        "gc_id": 3,
+        "gh_id": 92935846
+      }
     ],
     "non_blank_gc_comment_count": 3,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "open",
+    "gh_state": "open"
   },
   "2449": {
     "google_code_id": 2449,
-    "git_hub_id": null,
+    "git_hub_id": 2348,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92924986
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92935572
+      },
+      {
+        "gc_id": 3,
+        "gh_id": 92935882
+      }
     ],
     "non_blank_gc_comment_count": 3,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2464": {
     "google_code_id": 2464,
@@ -5336,14 +5390,25 @@
   },
   "844": {
     "google_code_id": 844,
-    "git_hub_id": null,
+    "git_hub_id": 2239,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92788427
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92789116
+      },
+      {
+        "gc_id": 3,
+        "gh_id": 92789907
+      }
     ],
     "non_blank_gc_comment_count": 3,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "884": {
     "google_code_id": 884,
@@ -5543,14 +5608,25 @@
   },
   "1324": {
     "google_code_id": 1324,
-    "git_hub_id": null,
+    "git_hub_id": 2252,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92795982
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92796406
+      },
+      {
+        "gc_id": 3,
+        "gh_id": 92796488
+      }
     ],
     "non_blank_gc_comment_count": 3,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "1335": {
     "google_code_id": 1335,
@@ -5572,14 +5648,25 @@
   },
   "1418": {
     "google_code_id": 1418,
-    "git_hub_id": null,
+    "git_hub_id": 2253,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92920020
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92937144
+      },
+      {
+        "gc_id": 3,
+        "gh_id": 92938009
+      }
     ],
     "non_blank_gc_comment_count": 3,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "1424": {
     "google_code_id": 1424,
@@ -6183,11 +6270,15 @@
       {
         "gc_id": 6,
         "gh_id": 92457460
+      },
+      {
+        "gc_id": 8,
+        "gh_id": 92801000
       }
     ],
     "non_blank_gc_comment_count": 7,
     "gc_state": "closed",
-    "gh_state": null
+    "gh_state": "closed"
   },
   "1794": {
     "google_code_id": 1794,
@@ -6938,7 +7029,7 @@
     ],
     "non_blank_gc_comment_count": 2,
     "gc_state": "closed",
-    "gh_state": null
+    "gh_state": "closed"
   },
   "2457": {
     "google_code_id": 2457,
@@ -8638,11 +8729,15 @@
       {
         "gc_id": 1,
         "gh_id": 91893978
+      },
+      {
+        "gc_id": 5,
+        "gh_id": 92784840
       }
     ],
     "non_blank_gc_comment_count": 2,
     "gc_state": "closed",
-    "gh_state": null
+    "gh_state": "closed"
   },
   "87": {
     "google_code_id": 87,
@@ -8652,11 +8747,15 @@
       {
         "gc_id": 1,
         "gh_id": 91893988
+      },
+      {
+        "gc_id": 5,
+        "gh_id": 92784864
       }
     ],
     "non_blank_gc_comment_count": 2,
     "gc_state": "closed",
-    "gh_state": null
+    "gh_state": "closed"
   },
   "88": {
     "google_code_id": 88,
@@ -8666,11 +8765,27 @@
       {
         "gc_id": 1,
         "gh_id": 91893997
+      },
+      {
+        "gc_id": 5,
+        "gh_id": 92784882
+      },
+      {
+        "gc_id": 6,
+        "gh_id": 92800658
+      },
+      {
+        "gc_id": 7,
+        "gh_id": 92806924
+      },
+      {
+        "gc_id": 8,
+        "gh_id": 92815675
       }
     ],
     "non_blank_gc_comment_count": 5,
     "gc_state": "closed",
-    "gh_state": null
+    "gh_state": "closed"
   },
   "89": {
     "google_code_id": 89,
@@ -8848,11 +8963,15 @@
       {
         "gc_id": 1,
         "gh_id": 91894024
+      },
+      {
+        "gc_id": 5,
+        "gh_id": 92784905
       }
     ],
     "non_blank_gc_comment_count": 2,
     "gc_state": "closed",
-    "gh_state": null
+    "gh_state": "closed"
   },
   "104": {
     "google_code_id": 104,
@@ -9636,25 +9755,28 @@
   },
   "167": {
     "google_code_id": 167,
-    "git_hub_id": null,
+    "git_hub_id": 2220,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92788040
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "168": {
     "google_code_id": 168,
-    "git_hub_id": null,
+    "git_hub_id": 2221,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "169": {
     "google_code_id": 169,
@@ -13868,11 +13990,14 @@
     "git_hub_id": 303,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92784996
+      }
     ],
     "non_blank_gc_comment_count": 1,
     "gc_state": "closed",
-    "gh_state": null
+    "gh_state": "closed"
   },
   "535": {
     "google_code_id": 535,
@@ -13959,11 +14084,14 @@
     "git_hub_id": 311,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92785027
+      }
     ],
     "non_blank_gc_comment_count": 1,
     "gc_state": "closed",
-    "gh_state": null
+    "gh_state": "closed"
   },
   "545": {
     "google_code_id": 545,
@@ -14014,11 +14142,18 @@
     "git_hub_id": 315,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 3,
+        "gh_id": 92785058
+      },
+      {
+        "gc_id": 4,
+        "gh_id": 92788072
+      }
     ],
     "non_blank_gc_comment_count": 2,
     "gc_state": "closed",
-    "gh_state": null
+    "gh_state": "closed"
   },
   "549": {
     "google_code_id": 549,
@@ -14036,11 +14171,14 @@
     "git_hub_id": 317,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 3,
+        "gh_id": 92785078
+      }
     ],
     "non_blank_gc_comment_count": 1,
     "gc_state": "closed",
-    "gh_state": null
+    "gh_state": "closed"
   },
   "551": {
     "google_code_id": 551,
@@ -14075,22 +14213,53 @@
       {
         "gc_id": 1,
         "gh_id": 92391252
+      },
+      {
+        "gc_id": 5,
+        "gh_id": 92785103
+      },
+      {
+        "gc_id": 9,
+        "gh_id": 92790589
+      },
+      {
+        "gc_id": 10,
+        "gh_id": 92790619
+      },
+      {
+        "gc_id": 11,
+        "gh_id": 92790659
       }
     ],
     "non_blank_gc_comment_count": 5,
     "gc_state": "closed",
-    "gh_state": null
+    "gh_state": "closed"
   },
   "554": {
     "google_code_id": 554,
     "git_hub_id": 914,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 4,
+        "gh_id": 92785125
+      },
+      {
+        "gc_id": 5,
+        "gh_id": 92788103
+      },
+      {
+        "gc_id": 6,
+        "gh_id": 92823329
+      },
+      {
+        "gc_id": 1,
+        "gh_id": 91895461
+      }
     ],
     "non_blank_gc_comment_count": 4,
     "gc_state": "closed",
-    "gh_state": null
+    "gh_state": "closed"
   },
   "555": {
     "google_code_id": 555,
@@ -14111,11 +14280,18 @@
     "git_hub_id": 319,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 4,
+        "gh_id": 92785147
+      },
+      {
+        "gc_id": 5,
+        "gh_id": 92785167
+      }
     ],
     "non_blank_gc_comment_count": 2,
     "gc_state": "closed",
-    "gh_state": null
+    "gh_state": "closed"
   },
   "557": {
     "google_code_id": 557,
@@ -15084,14 +15260,21 @@
   },
   "637": {
     "google_code_id": 637,
-    "git_hub_id": null,
+    "git_hub_id": 2223,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92788153
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92789045
+      }
     ],
     "non_blank_gc_comment_count": 2,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "642": {
     "google_code_id": 642,
@@ -15393,11 +15576,22 @@
     "git_hub_id": 329,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92785274
+      },
+      {
+        "gc_id": 3,
+        "gh_id": 92785298
+      },
+      {
+        "gc_id": 4,
+        "gh_id": 92788175
+      }
     ],
     "non_blank_gc_comment_count": 3,
     "gc_state": "closed",
-    "gh_state": null
+    "gh_state": "closed"
   },
   "669": {
     "google_code_id": 669,
@@ -15412,14 +15606,21 @@
   },
   "672": {
     "google_code_id": 672,
-    "git_hub_id": null,
+    "git_hub_id": 2224,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92788199
+      },
+      {
+        "gc_id": 3,
+        "gh_id": 92789068
+      }
     ],
     "non_blank_gc_comment_count": 2,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "689": {
     "google_code_id": 689,
@@ -15542,36 +15743,69 @@
   },
   "709": {
     "google_code_id": 709,
-    "git_hub_id": null,
+    "git_hub_id": 2228,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92785687
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92785725
+      },
+      {
+        "gc_id": 3,
+        "gh_id": 92785753
+      },
+      {
+        "gc_id": 6,
+        "gh_id": 92788224
+      }
     ],
     "non_blank_gc_comment_count": 4,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "713": {
     "google_code_id": 713,
-    "git_hub_id": null,
+    "git_hub_id": 2229,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92788237
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "726": {
     "google_code_id": 726,
-    "git_hub_id": null,
+    "git_hub_id": 2230,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92788265
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92789091
+      },
+      {
+        "gc_id": 6,
+        "gh_id": 92789103
+      },
+      {
+        "gc_id": 7,
+        "gh_id": 92790730
+      }
     ],
     "non_blank_gc_comment_count": 4,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "732": {
     "google_code_id": 732,
@@ -15774,14 +16008,37 @@
   },
   "751": {
     "google_code_id": 751,
-    "git_hub_id": null,
+    "git_hub_id": 2236,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92788282
+      },
+      {
+        "gc_id": 3,
+        "gh_id": 92788302
+      },
+      {
+        "gc_id": 4,
+        "gh_id": 92788317
+      },
+      {
+        "gc_id": 5,
+        "gh_id": 92788340
+      },
+      {
+        "gc_id": 6,
+        "gh_id": 92788362
+      },
+      {
+        "gc_id": 7,
+        "gh_id": 92788379
+      }
     ],
     "non_blank_gc_comment_count": 6,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "755": {
     "google_code_id": 755,
@@ -15950,11 +16207,18 @@
     "git_hub_id": 340,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92786114
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92788403
+      }
     ],
     "non_blank_gc_comment_count": 2,
     "gc_state": "closed",
-    "gh_state": null
+    "gh_state": "closed"
   },
   "786": {
     "google_code_id": 786,
@@ -16116,11 +16380,14 @@
     "git_hub_id": 350,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92786187
+      }
     ],
     "non_blank_gc_comment_count": 1,
     "gc_state": "closed",
-    "gh_state": null
+    "gh_state": "closed"
   },
   "823": {
     "google_code_id": 823,
@@ -16384,91 +16651,91 @@
   },
   "861": {
     "google_code_id": 861,
-    "git_hub_id": null,
+    "git_hub_id": 2240,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "862": {
     "google_code_id": 862,
-    "git_hub_id": null,
+    "git_hub_id": 2241,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "863": {
     "google_code_id": 863,
-    "git_hub_id": null,
+    "git_hub_id": 2242,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "864": {
     "google_code_id": 864,
-    "git_hub_id": null,
+    "git_hub_id": 2243,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "865": {
     "google_code_id": 865,
-    "git_hub_id": null,
+    "git_hub_id": 2244,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "866": {
     "google_code_id": 866,
-    "git_hub_id": null,
+    "git_hub_id": 2245,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "867": {
     "google_code_id": 867,
-    "git_hub_id": null,
+    "git_hub_id": 2246,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "868": {
     "google_code_id": 868,
-    "git_hub_id": null,
+    "git_hub_id": 2247,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "886": {
     "google_code_id": 886,
@@ -16737,11 +17004,31 @@
       {
         "gc_id": 1,
         "gh_id": 92401293
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92786639
+      },
+      {
+        "gc_id": 3,
+        "gh_id": 92817342
+      },
+      {
+        "gc_id": 4,
+        "gh_id": 92817734
+      },
+      {
+        "gc_id": 5,
+        "gh_id": 92817903
+      },
+      {
+        "gc_id": 6,
+        "gh_id": 92817964
       }
     ],
     "non_blank_gc_comment_count": 6,
     "gc_state": "closed",
-    "gh_state": null
+    "gh_state": "closed"
   },
   "911": {
     "google_code_id": 911,
@@ -19974,11 +20261,38 @@
     "git_hub_id": 362,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92786725
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92786782
+      },
+      {
+        "gc_id": 3,
+        "gh_id": 92786843
+      },
+      {
+        "gc_id": 4,
+        "gh_id": 92786900
+      },
+      {
+        "gc_id": 5,
+        "gh_id": 92790868
+      },
+      {
+        "gc_id": 6,
+        "gh_id": 92791242
+      },
+      {
+        "gc_id": 8,
+        "gh_id": 92791273
+      }
     ],
     "non_blank_gc_comment_count": 7,
     "gc_state": "closed",
-    "gh_state": null
+    "gh_state": "closed"
   },
   "1198": {
     "google_code_id": 1198,
@@ -20065,11 +20379,14 @@
     "git_hub_id": 365,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92786959
+      }
     ],
     "non_blank_gc_comment_count": 1,
     "gc_state": "closed",
-    "gh_state": null
+    "gh_state": "closed"
   },
   "1206": {
     "google_code_id": 1206,
@@ -21323,11 +21640,15 @@
       {
         "gc_id": 1,
         "gh_id": 91920666
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92787054
       }
     ],
     "non_blank_gc_comment_count": 2,
     "gc_state": "closed",
-    "gh_state": null
+    "gh_state": "closed"
   },
   "1318": {
     "google_code_id": 1318,
@@ -22328,25 +22649,31 @@
   },
   "1419": {
     "google_code_id": 1419,
-    "git_hub_id": null,
+    "git_hub_id": 2254,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92920074
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "1422": {
     "google_code_id": 1422,
-    "git_hub_id": null,
+    "git_hub_id": 2255,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92920114
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "1423": {
     "google_code_id": 1423,
@@ -22361,14 +22688,17 @@
   },
   "1425": {
     "google_code_id": 1425,
-    "git_hub_id": null,
+    "git_hub_id": 2256,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92920159
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "1431": {
     "google_code_id": 1431,
@@ -22382,7 +22712,7 @@
     ],
     "non_blank_gc_comment_count": 1,
     "gc_state": "closed",
-    "gh_state": null
+    "gh_state": "closed"
   },
   "1435": {
     "google_code_id": 1435,
@@ -23806,14 +24136,14 @@
   },
   "1546": {
     "google_code_id": 1546,
-    "git_hub_id": null,
+    "git_hub_id": 2257,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "1547": {
     "google_code_id": 1547,
@@ -24500,12 +24830,12 @@
   "1642": {
     "google_code_id": 1642,
     "git_hub_id": null,
-    "google_code_merged_into": null,
+    "google_code_merged_into": 2381,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
+    "gc_state": "closed",
     "gh_state": null
   },
   "1643": {
@@ -24822,25 +25152,39 @@
   },
   "1672": {
     "google_code_id": 1672,
-    "git_hub_id": null,
+    "git_hub_id": 2258,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92920220
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "1674": {
     "google_code_id": 1674,
-    "git_hub_id": null,
+    "git_hub_id": 2259,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92920284
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92934205
+      },
+      {
+        "gc_id": 3,
+        "gh_id": 92939609
+      }
     ],
     "non_blank_gc_comment_count": 3,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "1675": {
     "google_code_id": 1675,
@@ -25993,80 +26337,135 @@
   },
   "1776": {
     "google_code_id": 1776,
-    "git_hub_id": null,
+    "git_hub_id": 2260,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92920367
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "1777": {
     "google_code_id": 1777,
-    "git_hub_id": null,
+    "git_hub_id": 2261,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "1780": {
     "google_code_id": 1780,
-    "git_hub_id": null,
+    "git_hub_id": 2262,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "1781": {
     "google_code_id": 1781,
-    "git_hub_id": null,
+    "git_hub_id": 2263,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92920417
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92920463
+      }
     ],
     "non_blank_gc_comment_count": 2,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "1783": {
     "google_code_id": 1783,
-    "git_hub_id": null,
+    "git_hub_id": 2264,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92920514
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "1785": {
     "google_code_id": 1785,
-    "git_hub_id": null,
+    "git_hub_id": 2265,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92920551
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92934305
+      }
     ],
     "non_blank_gc_comment_count": 2,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "1787": {
     "google_code_id": 1787,
-    "git_hub_id": null,
+    "git_hub_id": 2266,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92920599
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92920638
+      },
+      {
+        "gc_id": 4,
+        "gh_id": 92934360
+      },
+      {
+        "gc_id": 5,
+        "gh_id": 92939713
+      },
+      {
+        "gc_id": 6,
+        "gh_id": 92940971
+      },
+      {
+        "gc_id": 7,
+        "gh_id": 92949338
+      },
+      {
+        "gc_id": 8,
+        "gh_id": 92949406
+      },
+      {
+        "gc_id": 9,
+        "gh_id": 92950494
+      },
+      {
+        "gc_id": 10,
+        "gh_id": 92951105
+      }
     ],
     "non_blank_gc_comment_count": 9,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "1788": {
     "google_code_id": 1788,
@@ -26333,57 +26732,77 @@
   },
   "1866": {
     "google_code_id": 1866,
-    "git_hub_id": null,
+    "git_hub_id": 2267,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92920690
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92920732
+      }
     ],
     "non_blank_gc_comment_count": 2,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "1867": {
     "google_code_id": 1867,
-    "git_hub_id": null,
+    "git_hub_id": 2268,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92920777
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "1869": {
     "google_code_id": 1869,
-    "git_hub_id": null,
+    "git_hub_id": 2269,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92920812
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "1870": {
     "google_code_id": 1870,
-    "git_hub_id": null,
+    "git_hub_id": 2270,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92920859
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92934450
+      }
     ],
     "non_blank_gc_comment_count": 2,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "1872": {
     "google_code_id": 1872,
     "git_hub_id": null,
-    "google_code_merged_into": null,
+    "google_code_merged_into": 1642,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
+    "gc_state": "closed",
     "gh_state": null
   },
   "1873": {
@@ -26399,36 +26818,42 @@
   },
   "1878": {
     "google_code_id": 1878,
-    "git_hub_id": null,
+    "git_hub_id": 2272,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "1880": {
     "google_code_id": 1880,
-    "git_hub_id": null,
+    "git_hub_id": 2273,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92920921
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "1890": {
     "google_code_id": 1890,
-    "git_hub_id": null,
+    "git_hub_id": 2274,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92920968
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "1893": {
     "google_code_id": 1893,
@@ -26503,14 +26928,17 @@
   },
   "1909": {
     "google_code_id": 1909,
-    "git_hub_id": null,
+    "git_hub_id": 2275,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92921026
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "1910": {
     "google_code_id": 1910,
@@ -26612,14 +27040,17 @@
   },
   "1920": {
     "google_code_id": 1920,
-    "git_hub_id": null,
+    "git_hub_id": 2277,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92921096
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "1922": {
     "google_code_id": 1922,
@@ -27121,14 +27552,21 @@
   },
   "1970": {
     "google_code_id": 1970,
-    "git_hub_id": null,
+    "git_hub_id": 2278,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92921182
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92934519
+      }
     ],
     "non_blank_gc_comment_count": 2,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "1971": {
     "google_code_id": 1971,
@@ -27249,14 +27687,17 @@
   },
   "1984": {
     "google_code_id": 1984,
-    "git_hub_id": null,
+    "git_hub_id": 2279,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92921269
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "1985": {
     "google_code_id": 1985,
@@ -28505,14 +28946,17 @@
   },
   "2167": {
     "google_code_id": 2167,
-    "git_hub_id": null,
+    "git_hub_id": 2280,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92921529
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2176": {
     "google_code_id": 2176,
@@ -28534,14 +28978,21 @@
   },
   "2178": {
     "google_code_id": 2178,
-    "git_hub_id": null,
+    "git_hub_id": 2281,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92921578
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92921626
+      }
     ],
     "non_blank_gc_comment_count": 2,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2180": {
     "google_code_id": 2180,
@@ -28674,14 +29125,14 @@
   },
   "2198": {
     "google_code_id": 2198,
-    "git_hub_id": null,
+    "git_hub_id": 2282,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2199": {
     "google_code_id": 2199,
@@ -28883,14 +29334,17 @@
   },
   "2232": {
     "google_code_id": 2232,
-    "git_hub_id": null,
+    "git_hub_id": 2283,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92921714
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "open",
+    "gh_state": "open"
   },
   "2239": {
     "google_code_id": 2239,
@@ -29692,14 +30146,17 @@
   },
   "2317": {
     "google_code_id": 2317,
-    "git_hub_id": null,
+    "git_hub_id": 2284,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92921853
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2318": {
     "google_code_id": 2318,
@@ -29939,14 +30396,17 @@
   },
   "2348": {
     "google_code_id": 2348,
-    "git_hub_id": null,
+    "git_hub_id": 2285,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92921930
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2351": {
     "google_code_id": 2351,
@@ -30028,14 +30488,17 @@
   },
   "2359": {
     "google_code_id": 2359,
-    "git_hub_id": null,
+    "git_hub_id": 2286,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92921998
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2360": {
     "google_code_id": 2360,
@@ -30064,14 +30527,21 @@
   },
   "2374": {
     "google_code_id": 2374,
-    "git_hub_id": null,
+    "git_hub_id": 2288,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92922048
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92942713
+      }
     ],
     "non_blank_gc_comment_count": 2,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "open",
+    "gh_state": "open"
   },
   "2380": {
     "google_code_id": 2380,
@@ -30086,267 +30556,347 @@
   },
   "2381": {
     "google_code_id": 2381,
-    "git_hub_id": null,
+    "git_hub_id": 2293,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92922118
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2383": {
     "google_code_id": 2383,
-    "git_hub_id": null,
+    "git_hub_id": 2295,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2384": {
     "google_code_id": 2384,
-    "git_hub_id": null,
+    "git_hub_id": 2296,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92922206
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92934558
+      }
     ],
     "non_blank_gc_comment_count": 2,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2385": {
     "google_code_id": 2385,
-    "git_hub_id": null,
+    "git_hub_id": 2297,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92922281
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2386": {
     "google_code_id": 2386,
-    "git_hub_id": null,
+    "git_hub_id": 2298,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92922358
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2387": {
     "google_code_id": 2387,
-    "git_hub_id": null,
+    "git_hub_id": 2299,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2388": {
     "google_code_id": 2388,
-    "git_hub_id": null,
+    "git_hub_id": 2300,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92922446
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "open",
+    "gh_state": "open"
   },
   "2389": {
     "google_code_id": 2389,
-    "git_hub_id": null,
+    "git_hub_id": 2301,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2390": {
     "google_code_id": 2390,
-    "git_hub_id": null,
+    "git_hub_id": 2302,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2392": {
     "google_code_id": 2392,
-    "git_hub_id": null,
+    "git_hub_id": 2303,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92922513
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92922587
+      }
     ],
     "non_blank_gc_comment_count": 2,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2398": {
     "google_code_id": 2398,
-    "git_hub_id": null,
+    "git_hub_id": 2304,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2399": {
     "google_code_id": 2399,
-    "git_hub_id": null,
+    "git_hub_id": 2305,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92922666
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92934608
+      },
+      {
+        "gc_id": 3,
+        "gh_id": 92940297
+      },
+      {
+        "gc_id": 4,
+        "gh_id": 92940374
+      }
     ],
     "non_blank_gc_comment_count": 4,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "open",
+    "gh_state": "open"
   },
   "2400": {
     "google_code_id": 2400,
-    "git_hub_id": null,
+    "git_hub_id": 2306,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92922750
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2401": {
     "google_code_id": 2401,
-    "git_hub_id": null,
+    "git_hub_id": 2307,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92922851
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2402": {
     "google_code_id": 2402,
-    "git_hub_id": null,
+    "git_hub_id": 2308,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2403": {
     "google_code_id": 2403,
-    "git_hub_id": null,
+    "git_hub_id": 2309,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92922942
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92934624
+      }
     ],
     "non_blank_gc_comment_count": 2,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "open",
+    "gh_state": "open"
   },
   "2404": {
     "google_code_id": 2404,
-    "git_hub_id": null,
+    "git_hub_id": 2310,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92923036
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2405": {
     "google_code_id": 2405,
-    "git_hub_id": null,
+    "git_hub_id": 2311,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2406": {
     "google_code_id": 2406,
-    "git_hub_id": null,
+    "git_hub_id": 2312,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92923119
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2407": {
     "google_code_id": 2407,
-    "git_hub_id": null,
+    "git_hub_id": 2313,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92923214
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2408": {
     "google_code_id": 2408,
-    "git_hub_id": null,
+    "git_hub_id": 2314,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92923299
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2409": {
     "google_code_id": 2409,
-    "git_hub_id": null,
+    "git_hub_id": 2315,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92923402
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "open",
+    "gh_state": "open"
   },
   "2410": {
     "google_code_id": 2410,
     "git_hub_id": null,
-    "google_code_merged_into": null,
+    "google_code_merged_into": 2409,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
+    "gc_state": "closed",
     "gh_state": null
   },
   "2411": {
     "google_code_id": 2411,
-    "git_hub_id": null,
+    "git_hub_id": 2316,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92923488
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92934654
+      },
+      {
+        "gc_id": 3,
+        "gh_id": 92940452
+      }
     ],
     "non_blank_gc_comment_count": 3,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2412": {
     "google_code_id": 2412,
@@ -30393,135 +30943,179 @@
   },
   "2416": {
     "google_code_id": 2416,
-    "git_hub_id": null,
+    "git_hub_id": 2318,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92923586
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2417": {
     "google_code_id": 2417,
-    "git_hub_id": null,
+    "git_hub_id": 2319,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2418": {
     "google_code_id": 2418,
-    "git_hub_id": null,
+    "git_hub_id": 2320,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2419": {
     "google_code_id": 2419,
-    "git_hub_id": null,
+    "git_hub_id": 2321,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92923683
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "open",
+    "gh_state": "open"
   },
   "2422": {
     "google_code_id": 2422,
-    "git_hub_id": null,
+    "git_hub_id": 2324,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92923782
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92934677
+      }
     ],
     "non_blank_gc_comment_count": 2,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "open",
+    "gh_state": "open"
   },
   "2425": {
     "google_code_id": 2425,
-    "git_hub_id": null,
+    "git_hub_id": 2327,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92923877
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92934697
+      }
     ],
     "non_blank_gc_comment_count": 2,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2426": {
     "google_code_id": 2426,
-    "git_hub_id": null,
+    "git_hub_id": 2328,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92923972
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92934720
+      }
     ],
     "non_blank_gc_comment_count": 2,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "open",
+    "gh_state": "open"
   },
   "2427": {
     "google_code_id": 2427,
-    "git_hub_id": null,
+    "git_hub_id": 2329,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2428": {
     "google_code_id": 2428,
-    "git_hub_id": null,
+    "git_hub_id": 2330,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92924063
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2429": {
     "google_code_id": 2429,
-    "git_hub_id": null,
+    "git_hub_id": 2331,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92924142
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "open",
+    "gh_state": "open"
   },
   "2430": {
     "google_code_id": 2430,
-    "git_hub_id": null,
+    "git_hub_id": 2332,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92924210
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92934753
+      },
+      {
+        "gc_id": 3,
+        "gh_id": 92940536
+      }
     ],
     "non_blank_gc_comment_count": 3,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2432": {
     "google_code_id": 2432,
-    "git_hub_id": null,
+    "git_hub_id": 2334,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2434": {
     "google_code_id": 2434,
@@ -30539,91 +31133,118 @@
   },
   "2437": {
     "google_code_id": 2437,
-    "git_hub_id": null,
+    "git_hub_id": 2336,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92924304
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92934789
+      },
+      {
+        "gc_id": 3,
+        "gh_id": 92940601
+      }
     ],
     "non_blank_gc_comment_count": 3,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2439": {
     "google_code_id": 2439,
-    "git_hub_id": null,
+    "git_hub_id": 2338,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92924501
+      },
+      {
+        "gc_id": 2,
+        "gh_id": 92924596
+      }
     ],
     "non_blank_gc_comment_count": 2,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "open",
+    "gh_state": "open"
   },
   "2440": {
     "google_code_id": 2440,
-    "git_hub_id": null,
+    "git_hub_id": 2339,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2441": {
     "google_code_id": 2441,
-    "git_hub_id": null,
+    "git_hub_id": 2340,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2442": {
     "google_code_id": 2442,
-    "git_hub_id": null,
+    "git_hub_id": 2341,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2448": {
     "google_code_id": 2448,
-    "git_hub_id": null,
+    "git_hub_id": 2347,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92924903
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2450": {
     "google_code_id": 2450,
-    "git_hub_id": null,
+    "git_hub_id": 2349,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92925072
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2452": {
     "google_code_id": 2452,
-    "git_hub_id": null,
+    "git_hub_id": 2351,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 1,
+        "gh_id": 92925160
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2454": {
     "google_code_id": 2454,
@@ -30819,47 +31440,47 @@
   },
   "2487": {
     "google_code_id": 2487,
-    "git_hub_id": null,
+    "git_hub_id": 2352,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2488": {
     "google_code_id": 2488,
-    "git_hub_id": null,
+    "git_hub_id": 2353,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2489": {
     "google_code_id": 2489,
-    "git_hub_id": null,
+    "git_hub_id": 2354,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2490": {
     "google_code_id": 2490,
-    "git_hub_id": null,
+    "git_hub_id": 2355,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "2498": {
     "google_code_id": 2498,
@@ -31790,90 +32411,455 @@
   },
   "635": {
     "google_code_id": 635,
-    "git_hub_id": null,
+    "git_hub_id": 2222,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 2,
+        "gh_id": 92790691
+      }
     ],
     "non_blank_gc_comment_count": 1,
-    "gc_state": null,
+    "gc_state": "open",
     "gh_state": null
   },
   "729": {
     "google_code_id": 729,
-    "git_hub_id": null,
+    "git_hub_id": 2232,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "730": {
     "google_code_id": 730,
-    "git_hub_id": null,
+    "git_hub_id": 2233,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "731": {
     "google_code_id": 731,
-    "git_hub_id": null,
+    "git_hub_id": 2234,
     "google_code_merged_into": null,
     "comments": [
-
+      {
+        "gc_id": 2,
+        "gh_id": 92785998
+      },
+      {
+        "gc_id": 4,
+        "gh_id": 92790763
+      }
     ],
     "non_blank_gc_comment_count": 2,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "743": {
     "google_code_id": 743,
-    "git_hub_id": null,
+    "git_hub_id": 2235,
     "google_code_merged_into": null,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 0,
-    "gc_state": null,
-    "gh_state": null
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
   "770": {
     "google_code_id": 770,
-    "git_hub_id": null,
+    "git_hub_id": 2237,
+    "google_code_merged_into": null,
+    "comments": [
+      {
+        "gc_id": 1,
+        "gh_id": 92786087
+      }
+    ],
+    "non_blank_gc_comment_count": 1,
+    "gc_state": "closed",
+    "gh_state": "closed"
+  },
+  "789": {
+    "google_code_id": 789,
+    "git_hub_id": 2238,
+    "google_code_merged_into": null,
+    "comments": [
+      {
+        "gc_id": 1,
+        "gh_id": 92786156
+      },
+      {
+        "gc_id": 3,
+        "gh_id": 92790795
+      },
+      {
+        "gc_id": 4,
+        "gh_id": 92791029
+      },
+      {
+        "gc_id": 5,
+        "gh_id": 92791072
+      }
+    ],
+    "non_blank_gc_comment_count": 4,
+    "gc_state": "closed",
+    "gh_state": "closed"
+  },
+  "1134": {
+    "google_code_id": 1134,
+    "git_hub_id": 2250,
+    "google_code_merged_into": null,
+    "comments": [
+      {
+        "gc_id": 3,
+        "gh_id": 92790834
+      },
+      {
+        "gc_id": 4,
+        "gh_id": 92791113
+      },
+      {
+        "gc_id": 6,
+        "gh_id": 92791158
+      },
+      {
+        "gc_id": 7,
+        "gh_id": 92791196
+      },
+      {
+        "gc_id": 8,
+        "gh_id": 92791903
+      },
+      {
+        "gc_id": 9,
+        "gh_id": 92792166
+      }
+    ],
+    "non_blank_gc_comment_count": 6,
+    "gc_state": "open",
+    "gh_state": null
+  },
+  "678": {
+    "google_code_id": 678,
+    "git_hub_id": 2225,
     "google_code_merged_into": null,
     "comments": [
 
     ],
-    "non_blank_gc_comment_count": 1,
-    "gc_state": null,
-    "gh_state": null
+    "non_blank_gc_comment_count": 0,
+    "gc_state": "closed",
+    "gh_state": "closed"
   },
-  "789": {
-    "google_code_id": 789,
-    "git_hub_id": null,
+  "679": {
+    "google_code_id": 679,
+    "git_hub_id": 2226,
     "google_code_merged_into": null,
+    "comments": [
+
+    ],
+    "non_blank_gc_comment_count": 0,
+    "gc_state": "closed",
+    "gh_state": "closed"
+  },
+  "708": {
+    "google_code_id": 708,
+    "git_hub_id": 2227,
+    "google_code_merged_into": null,
+    "comments": [
+      {
+        "gc_id": 2,
+        "gh_id": 92785529
+      },
+      {
+        "gc_id": 3,
+        "gh_id": 92785569
+      },
+      {
+        "gc_id": 4,
+        "gh_id": 92785618
+      }
+    ],
+    "non_blank_gc_comment_count": 3,
+    "gc_state": "closed",
+    "gh_state": "closed"
+  },
+  "712": {
+    "google_code_id": 712,
+    "git_hub_id": null,
+    "google_code_merged_into": 715,
     "comments": [
 
     ],
     "non_blank_gc_comment_count": 4,
-    "gc_state": null,
+    "gc_state": "closed",
     "gh_state": null
   },
-  "1134": {
-    "google_code_id": 1134,
-    "git_hub_id": null,
+  "727": {
+    "google_code_id": 727,
+    "git_hub_id": 2231,
+    "google_code_merged_into": null,
+    "comments": [
+      {
+        "gc_id": 1,
+        "gh_id": 92785892
+      }
+    ],
+    "non_blank_gc_comment_count": 1,
+    "gc_state": "open",
+    "gh_state": null
+  },
+  "870": {
+    "google_code_id": 870,
+    "git_hub_id": 2248,
+    "google_code_merged_into": null,
+    "comments": [
+      {
+        "gc_id": 1,
+        "gh_id": 92786565
+      }
+    ],
+    "non_blank_gc_comment_count": 1,
+    "gc_state": "closed",
+    "gh_state": "closed"
+  },
+  "1876": {
+    "google_code_id": 1876,
+    "git_hub_id": 2271,
     "google_code_merged_into": null,
     "comments": [
 
     ],
-    "non_blank_gc_comment_count": 6,
-    "gc_state": null,
-    "gh_state": null
+    "non_blank_gc_comment_count": 0,
+    "gc_state": "open",
+    "gh_state": "open"
+  },
+  "1919": {
+    "google_code_id": 1919,
+    "git_hub_id": 2276,
+    "google_code_merged_into": null,
+    "comments": [
+
+    ],
+    "non_blank_gc_comment_count": 0,
+    "gc_state": "open",
+    "gh_state": "open"
+  },
+  "2371": {
+    "google_code_id": 2371,
+    "git_hub_id": 2287,
+    "google_code_merged_into": null,
+    "comments": [
+
+    ],
+    "non_blank_gc_comment_count": 0,
+    "gc_state": "open",
+    "gh_state": "open"
+  },
+  "2376": {
+    "google_code_id": 2376,
+    "git_hub_id": 2289,
+    "google_code_merged_into": null,
+    "comments": [
+
+    ],
+    "non_blank_gc_comment_count": 0,
+    "gc_state": "open",
+    "gh_state": "open"
+  },
+  "2377": {
+    "google_code_id": 2377,
+    "git_hub_id": 2290,
+    "google_code_merged_into": null,
+    "comments": [
+
+    ],
+    "non_blank_gc_comment_count": 0,
+    "gc_state": "open",
+    "gh_state": "open"
+  },
+  "2378": {
+    "google_code_id": 2378,
+    "git_hub_id": 2291,
+    "google_code_merged_into": null,
+    "comments": [
+
+    ],
+    "non_blank_gc_comment_count": 0,
+    "gc_state": "open",
+    "gh_state": "open"
+  },
+  "2379": {
+    "google_code_id": 2379,
+    "git_hub_id": 2292,
+    "google_code_merged_into": null,
+    "comments": [
+
+    ],
+    "non_blank_gc_comment_count": 0,
+    "gc_state": "open",
+    "gh_state": "open"
+  },
+  "2382": {
+    "google_code_id": 2382,
+    "git_hub_id": 2294,
+    "google_code_merged_into": null,
+    "comments": [
+
+    ],
+    "non_blank_gc_comment_count": 0,
+    "gc_state": "open",
+    "gh_state": "open"
+  },
+  "2414": {
+    "google_code_id": 2414,
+    "git_hub_id": 2317,
+    "google_code_merged_into": null,
+    "comments": [
+
+    ],
+    "non_blank_gc_comment_count": 0,
+    "gc_state": "open",
+    "gh_state": "open"
+  },
+  "2420": {
+    "google_code_id": 2420,
+    "git_hub_id": 2322,
+    "google_code_merged_into": null,
+    "comments": [
+
+    ],
+    "non_blank_gc_comment_count": 0,
+    "gc_state": "open",
+    "gh_state": "open"
+  },
+  "2421": {
+    "google_code_id": 2421,
+    "git_hub_id": 2323,
+    "google_code_merged_into": null,
+    "comments": [
+
+    ],
+    "non_blank_gc_comment_count": 0,
+    "gc_state": "open",
+    "gh_state": "open"
+  },
+  "2423": {
+    "google_code_id": 2423,
+    "git_hub_id": 2325,
+    "google_code_merged_into": null,
+    "comments": [
+
+    ],
+    "non_blank_gc_comment_count": 0,
+    "gc_state": "open",
+    "gh_state": "open"
+  },
+  "2424": {
+    "google_code_id": 2424,
+    "git_hub_id": 2326,
+    "google_code_merged_into": null,
+    "comments": [
+
+    ],
+    "non_blank_gc_comment_count": 0,
+    "gc_state": "open",
+    "gh_state": "open"
+  },
+  "2431": {
+    "google_code_id": 2431,
+    "git_hub_id": 2333,
+    "google_code_merged_into": null,
+    "comments": [
+
+    ],
+    "non_blank_gc_comment_count": 0,
+    "gc_state": "open",
+    "gh_state": "open"
+  },
+  "2436": {
+    "google_code_id": 2436,
+    "git_hub_id": 2335,
+    "google_code_merged_into": null,
+    "comments": [
+
+    ],
+    "non_blank_gc_comment_count": 0,
+    "gc_state": "open",
+    "gh_state": "open"
+  },
+  "2443": {
+    "google_code_id": 2443,
+    "git_hub_id": 2342,
+    "google_code_merged_into": null,
+    "comments": [
+
+    ],
+    "non_blank_gc_comment_count": 0,
+    "gc_state": "open",
+    "gh_state": "open"
+  },
+  "2445": {
+    "google_code_id": 2445,
+    "git_hub_id": 2344,
+    "google_code_merged_into": null,
+    "comments": [
+
+    ],
+    "non_blank_gc_comment_count": 0,
+    "gc_state": "open",
+    "gh_state": "open"
+  },
+  "2446": {
+    "google_code_id": 2446,
+    "git_hub_id": 2345,
+    "google_code_merged_into": null,
+    "comments": [
+
+    ],
+    "non_blank_gc_comment_count": 0,
+    "gc_state": "open",
+    "gh_state": "open"
+  },
+  "2451": {
+    "google_code_id": 2451,
+    "git_hub_id": 2350,
+    "google_code_merged_into": null,
+    "comments": [
+
+    ],
+    "non_blank_gc_comment_count": 0,
+    "gc_state": "open",
+    "gh_state": "open"
+  },
+  "2569": {
+    "google_code_id": 2569,
+    "git_hub_id": 2356,
+    "google_code_merged_into": null,
+    "comments": [
+
+    ],
+    "non_blank_gc_comment_count": 0,
+    "gc_state": "open",
+    "gh_state": "open"
+  },
+  "2570": {
+    "google_code_id": 2570,
+    "git_hub_id": 2357,
+    "google_code_merged_into": null,
+    "comments": [
+
+    ],
+    "non_blank_gc_comment_count": 0,
+    "gc_state": "open",
+    "gh_state": "open"
   }
 }

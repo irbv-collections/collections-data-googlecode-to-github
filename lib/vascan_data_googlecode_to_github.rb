@@ -29,8 +29,9 @@ module VascanDataGooglecodeToGithub
     GC_ISSUE_TEMPLATE_TEXT = "(This is the template to report a data issue for Vascan. If you want to report another issue, please change the template above.)"
     
     #GoogleCode -> GitHub user mapping
-    USER_MAPPING = {"luc.brouillet@umontreal.ca" => "brouille","irbv@umontreal.ca" => "brouille", "manions@natureserve.ca"=>"manions", "marilynanions"=>"manions", "frederic.coursol"=>"FredCoursol","genevieve.croisetiere"=>"FredCoursol", 
-      "marc.favreau@tpsgc-pwgsc.gc.ca" => "MFavreau", "christiangendreau" => "cgendreau", "davidpshorthouse"=> "dshorthouse", "hall.geoffrey" => "geoffreyhall","sjmeades@sympatico.ca" => "sjmeades"}
+    USER_MAPPING = {"luc.brouillet@umontreal.ca" => "brouille", "manions@natureserve.ca"=>"manions", "marilynanions"=>"manions", "frederic.coursol"=>"FredCoursol","genevieve.croisetiere"=>"FredCoursol", 
+      "marc.favreau@tpsgc-pwgsc.gc.ca" => "MFavreau", "christiangendreau" => "cgendreau", "davidpshorthouse"=> "dshorthouse", 
+      "peter.desmet.cubc"=> "peterdesmet","hall.geoffrey" => "geoffreyhall","sjmeades@sympatico.ca" => "sjmeades", "papooshki"=> "MichaelOldham"}
     REVERSED_USER_MAPPING = USER_MAPPING.invertHashWithDuplicatedValues
     
     APP_STATE_FILE = "ExportCurrentState.json"
@@ -79,6 +80,15 @@ module VascanDataGooglecodeToGithub
           issue[:labels].each do |lbl|
             labelsHash[lbl] += 1
           end
+          #Display attachments
+          #issue[:comments][:items].each do |comment|
+          #  if comment[:attachments] && issue[:state] == 'open'
+          #   puts "Attachments for GoogleCode issue #{issue[:id]}"
+          #  comment[:attachments].each do |attachement|
+          #    puts attachement
+          #  end
+          # end
+          #end
         end
       end
       puts "#{authorHash.length} distinct authors:#{authorHash.inspect}"
@@ -101,6 +111,7 @@ module VascanDataGooglecodeToGithub
     # @param github_user [String] GitHub user name of the connected user
     # @param google_code_json_export_file [String] path of the file containing the GoogleCode export JSON document
     # @param dryrun [Boolean] GitHub user name of the connected user
+    # @param write_gc_author [Boolean] write the GoogleCode user in the generate comment line, used when transfering issues for a user with no GitHub account
     def transferIssues(github_user, google_code_json_export_file, dryrun, write_gc_author)
       file = File.read(google_code_json_export_file)
       puts "Reading GoogleCode export JSON file ..."
@@ -138,7 +149,7 @@ module VascanDataGooglecodeToGithub
     # Converts a GoogleCode issue hash into a GitHubIssue object
     #
     # @param gcIssue [Hash] the issue on GoogleCode.
-    # @param write_gc_author 
+    # # @param write_gc_author [Boolean]
     # @return [GitHubIssue] instance representing the GoogleCode issue formatted for GitHub
     #
     def convertToGitHubIssue (gcIssue, write_gc_author)
@@ -213,6 +224,7 @@ module VascanDataGooglecodeToGithub
           resource = @client.create_issue(GIT_HUB_REPO, git_hub_issue.title, git_hub_issue.body, {labels:git_hub_issue.labels.join(",")})
           sleep 4
           current_issue_status.git_hub_id = resource["number"]
+          current_issue_status.gh_state = "open"
           writeAppState()
         end
       end
@@ -222,6 +234,7 @@ module VascanDataGooglecodeToGithub
     # The challenge is to keep the ordering of the issue while retaining the issue author
     # @param git_hub_issue [GitHubIssue] the GitHub issue object to submit
     # @param dryrun [Boolean]
+    # @param write_gc_author [Boolean]
     def handleComments(git_hub_issue, dryrun, write_gc_author)
       googleCodeId = git_hub_issue.google_code_id
       @issueStatuses[googleCodeId.to_s.to_sym] ||= IssueStatus.new({google_code_id:googleCodeId, comments:Array.new })
@@ -286,6 +299,7 @@ module VascanDataGooglecodeToGithub
     def tryCloseIssue(git_hub_issue, dryrun)
       google_code_id = git_hub_issue.google_code_id
       current_issue_status = @issueStatuses[google_code_id.to_s.to_sym]
+      
       # check if it was at the state "closed" on GoogleCode
       if current_issue_status && current_issue_status.git_hub_id && current_issue_status.gc_state == "closed"
         # check 
@@ -316,6 +330,6 @@ module VascanDataGooglecodeToGithub
       end
     end
     
-    private :transferIssues, :shouldInclude?, :convertToGitHubIssue, :readAppState, :writeAppState, :submitIssueToGitHub
+    private :transferIssues, :shouldInclude?, :convertToGitHubIssue, :readAppState, :writeAppState, :submitIssueToGitHub, :tryCloseIssue
   end
 end
