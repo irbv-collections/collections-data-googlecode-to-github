@@ -254,6 +254,7 @@ module VascanDataGooglecodeToGithub
         
       github_user = @client.user.login
       #get the current comment list for this issue
+      #TODO we could probably avoid that API call by looking at comments with a gh_id set
       gh_issue_comments = @client.issue_comments(GIT_HUB_REPO, current_issue_status.git_hub_id.to_s)
       gh_issue_comment_count = gh_issue_comments.size
       

@@ -1,6 +1,6 @@
 # VascanDataGooglecodeToGithub
 
-Light command-line gem used to import Google Code Vascan's issues into GitHub issues.
+Lightweight command-line gem used to import Google Code Vascan's issues into GitHub issues system.
 This project was created specially to transfer VASCAN issues and is not intended for direct reuse on other repository.
 Issues are read from the generated Google Takeout document.
 
@@ -12,10 +12,11 @@ Bundle:
 
 ## Limitation
  * Can only work with one GitHub user at the time using GitHub access token
+ * Sleeps between GitHub API call to avoid hitting the number of call limit (this could still happen if you have > 150 issues)
  * Does not handle merged issues, they will be skipped and flagged
  * Does not handle attachments, they will be ignored (see source code if you want to display them)
  * Comments are pushed to GitHub in order meaning that, more than one run could be necessary in case a discussion occurred on GoogleCode
- * Coming from the Java world (cgendreau), the code is not fully using a proper Ruby coding style (e.g. https://github.com/bbatsov/ruby-style-guide)
+ * Coming from the Java world (cgendreau), the code is not fully using a proper Ruby coding style (e.g. https://github.com/bbatsov/ruby-style-guide) yet
 
 ## Usage
 
