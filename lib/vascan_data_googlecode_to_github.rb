@@ -20,19 +20,17 @@ module VascanDataGooglecodeToGithub
   class Migrator
     
     # label definitions
-    GIT_HUB_REPO = "Canadensys/vascan-data"
-    INCLUDE_LABELS = ['Vascan']
-    EXCLUDE_LABELS = ['Section-BackEnd','Section-Interface','Section-Support']
+    GIT_HUB_REPO = "irbv-collections/MT-controlled-vocabulary"
+    INCLUDE_LABELS = ['Section-Taxon']
+    EXCLUDE_LABELS = ['']
 
     #GoogleCode -> GitHub isssue label mapping 
-    LABEL_MAPPING = {VernacularEN:"vernacularEN",:'Vernacular-EN'=>"vernacularEN",VernacularFR:"vernacularFR",:'Vernacular-FR'=>"VernacularFR", WontFix:"wontfix", Invalid:"invalid"}
+    LABEL_MAPPING = {WontFix:"wontfix", Invalid:"invalid",:"Section-Taxon"=>"Taxon"}
     
-    GC_ISSUE_TEMPLATE_TEXT = "(This is the template to report a data issue for Vascan. If you want to report another issue, please change the template above.)"
+    GC_PROJECT_NAME = "centre-collections"
     
-    #GoogleCode -> GitHub user mapping
-    USER_MAPPING = {"luc.brouillet@umontreal.ca" => "brouille", "manions@natureserve.ca"=>"manions", "marilynanions"=>"manions", "frederic.coursol"=>"FredCoursol","genevieve.croisetiere"=>"FredCoursol", 
-      "marc.favreau@tpsgc-pwgsc.gc.ca" => "MFavreau", "christiangendreau" => "cgendreau", "davidpshorthouse"=> "dshorthouse", 
-      "peter.desmet.cubc"=> "peterdesmet","hall.geoffrey" => "geoffreyhall","sjmeades@sympatico.ca" => "sjmeades", "papooshki"=> "MichaelOldham"}
+    #GoogleCode -> GitHub user mapping (truncated to not display emails)
+    USER_MAPPING = {"luc.brouillet@umontreal.ca" => "brouille", "margotton.herbier"=>"herbier", "frederic.coursol"=>"FredCoursol", "christiangendreau" => "cgendreau"}
     REVERSED_USER_MAPPING = USER_MAPPING.invertHashWithDuplicatedValues
     
     APP_STATE_FILE = "ExportCurrentState.json"
@@ -73,13 +71,17 @@ module VascanDataGooglecodeToGithub
       labelsHash = Hash.new(0)
       file = File.read(googleCodeJSONExportFile)
       data_hash = JSON.parse(file, :symbolize_names => true)
-      data_hash[:projects][0][:issues][:items].each do |issue|
+      project_data = data_hash[:projects].select { |p| p[:name] == GC_PROJECT_NAME}
+
+      project_data[0][:issues][:items].each do |issue|
         if shouldInclude?(issue[:labels])
           authorHash[issue[:author][:name]] += 1;
           statusesHash[issue[:status]]+= 1;
           statesHash[issue[:state]]+= 1;
-          issue[:labels].each do |lbl|
-            labelsHash[lbl] += 1
+          if issue[:labels]
+            issue[:labels].each do |lbl|
+              labelsHash[lbl] += 1
+            end
           end
           #Display attachments
           #issue[:comments][:items].each do |comment|
@@ -111,6 +113,10 @@ module VascanDataGooglecodeToGithub
         if !data.git_hub_id || data.git_hub_id == ""
           puts "GoogleCode issue #{key} does not have a GitHub id"
         end
+        
+        if data.non_blank_gc_comment_count != data.comments.size()
+          puts "Number of comment doesn't match for GoogleCode issue #{key}"
+        end
       end
     end
     
@@ -123,7 +129,8 @@ module VascanDataGooglecodeToGithub
       puts "Reading GoogleCode export JSON file ..."
       data_hash = JSON.parse(file, :symbolize_names => true)
       puts "Iterating over GoogleCode issues ..."
-      data_hash[:projects][0][:issues][:items].each do |issue|
+      project_data = data_hash[:projects].select { |p| p[:name] == GC_PROJECT_NAME}
+      project_data[0][:issues][:items].each do |issue|
         if shouldInclude?(issue[:labels])
           ghIssue = convertToGitHubIssue(issue,write_gc_author)
           # ensure we are the author of the issue
@@ -146,6 +153,10 @@ module VascanDataGooglecodeToGithub
     # @return [Boolean] should the issue with those labels be included
     #
     def shouldInclude? (labels)
+      #no labels, we accept it
+      if !labels || labels.empty?
+        return true
+      end
       if !(labels & EXCLUDE_LABELS).empty?
         return false
       end
@@ -162,10 +173,14 @@ module VascanDataGooglecodeToGithub
       ghIssue = GitHubIssue.new
       ghIssue.google_code_id = gcIssue[:id]
       ghIssue.title = gcIssue[:title]
-      ghIssue.labels = gcIssue[:labels].collect { |label| LABEL_MAPPING[label.to_sym] }
-      #try to map GoogleCode Status to a GitHub label
-      ghIssue.labels.push(LABEL_MAPPING[gcIssue[:status].to_sym])
-      ghIssue.labels.compact!
+      if gcIssue[:labels]
+        ghIssue.labels = gcIssue[:labels].collect { |label| LABEL_MAPPING[label.to_sym] }
+        #try to map GoogleCode Status to a GitHub label
+        ghIssue.labels.push(LABEL_MAPPING[gcIssue[:status].to_sym])
+        ghIssue.labels.compact!
+      else
+        ghIssue.labels = []
+      end
       ghIssue.user = USER_MAPPING[gcIssue[:author][:name]]
       
       #identify merged issue
@@ -178,7 +193,7 @@ module VascanDataGooglecodeToGithub
       
       originalDate =  Date.parse(firstComment[:published]).iso8601
       # remove template explanation text 
-      issueBody = firstComment[:content].gsub(GC_ISSUE_TEMPLATE_TEXT, "")
+      issueBody = firstComment[:content]
       by_comment = ""
       if write_gc_author === true
         by_comment = " by #{gcIssue[:author][:name].split("@")[0]}"
