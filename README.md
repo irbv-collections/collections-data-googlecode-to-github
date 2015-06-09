@@ -1,8 +1,10 @@
-# VascanDataGooglecodeToGithub
+# CollectionsDataGooglecodeToGithub
 
-Lightweight command-line gem used to import Google Code Vascan's issues into GitHub issues system.
-This project was created specially to transfer VASCAN issues and is not intended for direct reuse on other repository.
+Lightweight command-line gem used to import Google Code "centre-collections" issues into GitHub issues system.
+This project was created specially to transfer "centre-collections" issues and is not intended for direct reuse on other repository.
 Issues are read from the generated Google Takeout document.
+
+WARNING: The issues have been split on 2 different projects: MT-data and MT-controlled-vocabulary based on labels assigned in GoolgeCode.
 
 ## Installation
 
